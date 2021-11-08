@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./question.css">
+    <link rel="icon" href="./Img/favicon.jpg" type="image/jpg" sizes="16x16">
+    <title>AMA</title>
+</head>
+
+<body>
+    <div id="root">
+        <div class="App">
+            <div>
+                <div class="col-3">
+                    <div id="navbar">
+                        <button id="back" class="cybr-btn">🠤 Back
+                            <span aria-hidden class="cybr-btn__glitch">🠤 Back</span>
+                        </button>
+                        
+                        <p id="display-session"><span id="spanStatus"></span><span>Session:</span><span id="session"></span>
+                            <span id="refresh"><button id="refresh-btn" class="cybr-btn">Refresh
+                                    <span aria-hidden class="cybr-btn__glitch">Refresh</span>
+                                </button></span>
+                        </p>
+                    </div>
+                </div>
+                <div id="QnA-container">
+                    <div id="question-box">
+                        <h3 id="gotquestion">Got Question? 🤔</h3>
+                        <div id="textbox">
+                            <textarea id="textarea" rows="5"></textarea>
+                        </div>
+                        <div id="ask-button">
+                            <button id="create">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                Ask!💬</button>
+                        </div>
+
+                    </div>
+                    <div id="questionbox">
+                        <div id="question"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="question.js" type="text/javascript"></script>
+
+</html>

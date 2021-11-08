@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/website/index.css">
+    <link rel="icon" href="./Img/favicon.jpg" type="image/jpg" sizes="16x16">
+    <title>AMA</title>
+</head>
+
+<body>
+    <div id="box">
+        <div class="col-1">
+            <h3>Welcome to my humble AMA Website!</h3>
+            <p>To join a AMA session, enter a session id and hit the Go! button</p>
+        </div>
+
+        <div class="col-2">
+            <div id="fieldinput">
+                <label class="field field_v3">
+                    <input id="input" type="text" maxlength="10" minlength="10" class="field__input"
+                        placeholder="10Characters" value="">
+                    <span class="field__label-wrap">
+                        <span class="field__label">Session ID:</span>
+                    </span>
+                </label>
+            </div>
+        </div>
+
+
+        <div class="col-3">
+            <div id="go-button-div">
+                <button id="go-button" class="cybr-btn">
+                    Go 🚀<div id="feedbackani" class="loading-icon lds-dual-ring" hidden></div>
+                    <span aria-hidden class="cybr-btn__glitch">Go 🚀</span>
+                    <span aria-hidden class="cybr-btn__tag">R25</span>
+                    
+                </button>
+            </div>
+            <div id="aTag">
+                <a href="session.html">I am a Owner 🙋‍♂️</a>
+            </div>
+        </div>
+
+    </div>
+</body>
+<script src="index.js" type="text/javascript"></script>
+
+</html>

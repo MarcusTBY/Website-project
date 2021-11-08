@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./singlequestion.css">
+    <link rel="icon" href="./Img/favicon.jpg" type="image/jpg" sizes="16x16">
+    <title>AMA</title>
+</head>
+
+<body>
+    <div id="root">
+        <div class="App">
+            <div>
+                <div class="col-3">
+                    <div id="navbar">
+                        <button id="back" class="cybr-btn">🠤 Back
+                            <span aria-hidden class="cybr-btn__glitch">🠤 Back</span>
+                        </button>
+
+                        <p id="display-session"><span id="spanStatus"></span><span>Session:</span><span
+                                id="session"></span>
+                            <span id="refresh"><button id="refresh-btn" class="cybr-btn">Refresh
+                                    <span aria-hidden class="cybr-btn__glitch">Refresh</span>
+                                </button></span>
+                        </p>
+                    </div>
+                </div>
+                <div id="QnA-container">
+                    <div>
+                        <h3 id="gotquestion">Question <span id="qnsid"></span></h3>
+                        <div><span id="questiontoanswer"></span></div>
+                    </div>
+                    <div id="question-box">
+                        <h3 id="gotquestion">Answer Question</h3>
+                        <div id="textbox">
+                            <textarea id="textarea" rows="5"></textarea>
+                        </div>
+                        <div id="send-button">
+                            <button id="create">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                Send!🚀</button>
+                        </div>
+                        <div id="replied"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="singlequestion.js" type="text/javascript"></script>
+
+</html>
